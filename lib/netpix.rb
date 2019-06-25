@@ -1,6 +1,9 @@
-require "netpix/version"
+module NetPix
+  class Print_Picture
 
-module Netpix
-  class Error < StandardError; end
-  # Your code goes here...
-end
+    def hello
+      puts "testing 1 2 3"
+    end
+    
+  end
+end    
